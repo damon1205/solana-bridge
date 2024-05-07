@@ -1,0 +1,18 @@
+{
+  "name": "solana_jobs",
+  "version": "1.0.0",
+  "description": "Make request to move assets forth and back between Solana and Incognito",
+  "main": "index.js",
+  "author": "thach dep trai",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/spl-token": "^0.2.0",
+    "@solana/web3.js": "^1.35.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "start": "npx ts-node index.ts"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@solana/spl-token": "^0.2.0",
+    "@solana/web3.js": "^1.35.1",
+    "bn": "^1.0.5",
+    "borsh": "^0.7.0",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "start": "npx ts-node index.ts",
+    "deploy": "cargo build-bpf && solana program deploy /Users/Macbook_Atonomous/Documents/solana-bridge/target/deploy/solana_bridge.so --program-id BKGhwbiTHdUxcuWzZtDWyioRBieDEXTtgEk8u1zskZnk"
+  }
+}

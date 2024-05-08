@@ -1,0 +1,27 @@
+[package]
+name = "solana-bridge"
+version = "0.1.0"
+edition = "2021"
+license = "WTFPL"
+publish = false
+
+[dependencies]
+solana-program = "=1.9.9"
+thiserror = "1.0.29"
+spl-token = {version = "3.2.0", features = ["no-entrypoint"]}
+arrayref = "0.3.6"
+borsh = "0.9.3"
+spl-associated-token-account = {version = "1.0.3", features = ["no-entrypoint"]}
+
+[features]
+test-bpf = []
+
+[dev-dependencies]
+assert_matches = "1.4.0"
+solana-program-test = "=1.9.9"
+solana-sdk = "=1.9.9"
+solana-validator = "=1.9.9"
+solana-logger = "=1.9.9"
+
+[lib]
+crate-type = ["cdylib", "lib"]

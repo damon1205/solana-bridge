@@ -1,0 +1,12 @@
+/*-dump.txt
+/*.so
+/target/
+.idea/
+.vscode/
+Cargo.lock
+tests/client/node_modules/
+tests/client/yarn.lock
+services/node_modules
+services/yarn.lock
+/services-go/go.sum
+.DS_Store
